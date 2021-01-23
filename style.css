@@ -1,0 +1,540 @@
+/* ---------------------------------------- */
+/* == ÉLÉMENTS PRINCIPAUX */
+/*---------------------------------------- */
+@font-face {
+    font-family: 'caveatregular';
+    src: url('caveat-regular-webfont.eot');
+    src: url('caveat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('caveat-regular-webfont.woff') format('woff'),
+         url('caveat-regular-webfont.ttf') format('truetype'),
+         url('caveat-regular-webfont.svg#caveatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    width: 100%;
+    margin: 0;
+    font-family: 'comic sans ms';
+    background-color: rgb(255, 255, 255);
+}
+
+#bloc_page
+{
+    width: 100vw;
+    min-height: 100vh; 
+}
+
+.child_div
+{
+    width: 100%;
+    font-size: 1em;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.child_div:hover 
+{
+    transform: scale(1.20);
+    opacity: 0.5;
+}
+
+.paragraphe, h1
+{
+    margin: 0;
+    text-align: center;
+}
+
+p
+{
+    margin: 0;
+}
+
+article >h2
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*les articles dans les sous dossiers*/
+article
+{
+    width: 95%;
+    margin: auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+/* ---------------------------------------- */
+        /*hearder*/
+/*---------------------------------------- */
+header
+{
+    width: 100%;
+    background-color: rgb(87, 156, 135);
+    margin-bottom: 3vh;
+}
+
+nav
+{
+    width: 60%;
+    margin: auto;
+    padding: 3vh 0;
+}
+nav h1, nav h1 a
+{
+    color: #ffcc00;
+    font-size: 1.5em;
+}
+/* ---------------------------------------- */
+         /*PREMIER BLOCK DIV*/
+/*---------------------------------------- */
+.parent_div
+ {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+ }
+
+.paragraphe1
+{
+    font-family:'caveatregular';
+    font-weight: bold;
+    font-size: 1.6em;
+}
+.couleur_menu1
+{
+    color: black;
+}
+
+.child_div1
+{
+     width: 100%;
+    font-size: 1.2em;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.child_div1:hover 
+{
+    transform: scale(1.15);
+    opacity: 0.5;
+}
+
+#parent_div1
+{
+    background-color: rgb(252, 223, 219);
+    box-shadow: 5px 5px 5px 5px #aaaaaa;
+}
+
+.fas
+{
+    color: #FF5722;
+    width: 15%;
+    margin: auto;
+    font-size: 40px;
+}
+/*sous dossier*/
+#enchantes
+{
+    background-color: rgb(252, 223, 219);
+}
+
+h2
+{
+    position: relative;
+    text-align: center;
+}
+
+h2:before, h2:after
+{
+    content: '';
+    width: 13%;
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 3px #000000 solid;
+    z-index: 0;           
+}
+
+h2:before
+{
+    left: 0;
+}
+
+h2:after
+{
+    right: 0;
+}
+
+h2:hover
+{
+    text-decoration: underline;
+}
+
+/* ---------------------------------------- */
+         /*DEUXIEME BLOCK DIV*/
+/*---------------------------------------- */
+ #parent_div2
+ {
+    background-color: rgb(255, 245, 254);
+    font-family: 'times new roman';
+    padding: 5vh 0 5vh 0;
+    box-shadow: 5px 5px 5px 5px #aaaaaa;
+ }
+.couleur_menu2
+{
+    color: rgb(199, 116, 18);
+}
+/*sous sous dossier*/
+
+.smoll_title1:before, .smoll_title1:after
+{
+    content: '';
+    width: 4%;
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 3px rgb(212, 148, 77) solid;
+    z-index: 0;           
+}
+
+.smoll_title2:before, .smoll_title2:after
+{
+    content: '';
+    width: 13%;
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 3px rgb(165, 103, 153) solid;
+    z-index: 0;           
+}
+
+.smoll_title3:before, .smoll_title3:after
+{
+    content: '';
+    width: 7%;
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 3px rgb(110, 76, 204) solid;
+    z-index: 0;           
+}
+
+.appetit
+{
+    color: rgb(212, 148, 77);
+}
+.la_francaise
+{
+    background: linear-gradient(to right, #e38913 0%, #8f5bfe 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 1em;
+}
+.title_le_chic
+{
+    background: linear-gradient(to right, #e38913 40%, #8f5bfe 80%); 
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.Plaisir_papilles
+{
+    color: rgb(165, 103, 153);
+}
+.gourmandise
+{
+    padding-bottom: 5vh;
+    color: rgb(110, 76, 204);
+}
+
+/* ---------------------------------------- */
+         /*TROISIEME BLOCK DIV*/
+/*---------------------------------------- */
+ #parent_div3
+ {
+    background-color: rgb(249, 249, 249);
+    padding: 5vh 0 5vh 0;
+    box-shadow: 5px 5px 5px 5px #aaaaaa;
+ }
+.couleur_menu3
+{
+    background: linear-gradient(to right, #0066ff 72%, #3399ff 99%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.color_m3
+{
+    color: rgb(89, 89, 255);
+}
+
+#paragraphe2, #paragraphe3, .titre_delice
+{
+    font-family:'caveatregular';
+    font-size: 1.4em;
+}
+
+/*sous dessier*/
+#le_delice
+{
+    background-color: rgb(237, 239, 239);
+}
+
+.titre_delice
+{
+    color: blue;
+    font-size: 2.8em;
+}
+
+.small_title:before, .small_title:after
+{
+    content: '';
+    width: 9%;
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 3px blue solid;
+    z-index: 0;           
+}
+
+/* ---------------------------------------- */
+         /*QUATRIEME BLOCK DIV*/
+/*---------------------------------------- */
+ #parent_div4
+ {
+    background: rgb(253, 255, 253);
+    padding: 5vh 0 5vh 0;
+    box-shadow: 5px 5px 5px 5px #aaaaaa;
+ }
+
+.couleur_menu4
+{
+     
+    background: linear-gradient(to right, #009900 0%, #99ff99 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.color_m4
+{
+    color: #00cc66;
+}
+/*sous dossier*/
+.color_menu4
+{
+    background: linear-gradient(to right, #009900 40%, #99ff99 60%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+#palette
+{
+    background-color: rgb(248, 248, 248);
+}
+
+
+.titre_sous_dossier:before, .titre_sous_dossier:after
+{
+    content: '';
+    width: 13%;
+    position: absolute;
+    bottom: 50%;
+    border-bottom: 3px rgb(0, 217, 54) solid;
+    z-index: 0;           
+}
+
+/* ---------------------------------------- */
+         /*Bouton prochainement*/
+/*---------------------------------------- */
+ #btn
+{
+    width: 60%;
+    margin: auto;
+    background: rgb(87, 156, 135);
+    color:  #ffcc00;
+    font-size: 2vh;
+    margin-bottom: 9vh;
+    border-radius: 3vh;
+    padding: 1rem 1rem;
+}
+
+.btn 
+{
+    text-align: center;   
+}
+.btn_animation
+{
+    animation-name: bouton;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bouton
+{
+    0%{ opacity: 0}
+    25%{opacity: 0.25}
+    50%{opacity: 0.5}
+    75%{opacity: 0.75}
+    100%{opacity: 1}
+}
+/* ---------------------------------------- */
+                 /*footer*/
+/*---------------------------------------- */ 
+footer
+{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    width: 100vw;
+    background-color: rgb(87, 156, 135);
+    justify-content: space-between;
+}
+.footer
+{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    justify-content: space-between;
+}
+
+.footer_P
+{
+    width: 40%;
+    padding-left: 1vh;
+    padding-top: 2vh;
+    animation: thing 1s infinite;
+}
+@keyframes thing
+{
+    0%{transform: rotate(0deg)}
+    5%{transform: rotate(-2deg)}
+    10%{transform: rotate(2deg)}
+    15%{transform: rotate(0deg)}
+    100%{transform: rotate(0deg)}
+}
+
+.footer_P a
+{
+    color: #ffcc00;
+}
+/*dossier mentions legale*/
+.mention
+{
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+/* ---------------------------------------- */
+            /*les sous pages*/
+/*---------------------------------------- */
+.div_principal
+{
+    width: 100vw;
+    min-height: 100vh; 
+    margin: 0;
+    padding-bottom: 8vh;
+}
+
+.grnd_div
+{
+    display: flex;
+    width: 100%;
+    padding-bottom: 1vh;
+    justify-content: space-between;
+}
+.plat
+{
+    width: 80%;
+}
+
+.prix
+{
+    width: 12%;
+    font-weight: bold;
+}
+
+.la_note
+{ 
+    padding: 3vh 0;
+}
+
+
+
+/* ---------------------------------------- */
+        /* == /Media query*/
+/*---------------------------------------- */
+@media screen and (min-width: 412px)
+{
+    .grnd_section
+    {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 5vh;
+        justify-content: space-around;
+    }
+
+    .child_div
+    {
+        padding-top: 50%;
+    }
+
+    .child_div1
+    {
+        font-size: 0.8em;
+        padding-top: 40%;
+    }
+
+    #parent_div1, #parent_div2, #parent_div3, #parent_div4
+    {
+        width: 20%;
+        height: 50vh;
+        margin: 0;
+        padding: 50px;
+    }
+    /*footer*/
+    .footer
+    {
+        padding-bottom: 1vh;
+    }
+    .footer_P
+    {
+        margin-left: 4vh;
+        width: 25%;
+        font-size: 20px;
+        padding-left: 0;
+    }
+    /*bouton prochainement*/
+    #btn
+    {
+        width: 32%;
+        margin-bottom: 8vh;
+    }
+
+    .paragraphe1 
+    {
+        font-size: 1.6em;
+    }
+    /*les h2 dans les sous dossier*/
+  
+    h2:before, h2:after, .small_title:before, .small_title:after, .titre_sous_dossier:before, .titre_sous_dossier:after,
+    .smoll_title2:before, .smoll_title2:after, .smoll_title3:before, .smoll_title3:after, .smoll_title1:before, .smoll_title1:after
+    {
+        width: 28%;           
+    }
+}
+    /* media pour les ordi */
+@media screen and (min-width: 1025px){
+     .footer_P
+    {
+        margin-left: 4vh;
+        width: 15%;
+        font-size: 20px;
+        padding-left: 0;
+    }
+}
